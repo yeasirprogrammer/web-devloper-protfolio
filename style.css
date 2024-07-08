@@ -22,6 +22,9 @@
     border: none;
 
 }
+.bg-secondary{
+    background-color: #FFF8F3;
+}
 
 
 /* Nav style */
@@ -33,13 +36,25 @@ nav{
     margin: 0 200px;
 
 }
-
+.drak1{
+    color:#181818 ;
+}
 .dark2{
    color: #474747 ;
 }
 .dark3{
     color: #757575 ;
  }
+ .section-title{
+    font-size: 35;
+    color:#181818 ;
+ }
+ .section-description{
+    font-size:18;
+    color: #757575;
+    }
+
+
 
 
 
@@ -97,4 +112,22 @@ nav ul li a{
 .banner-descrtiption{
    font-size: 18px;
    
+}
+
+/* Main Css */
+ main{
+    max-width: 1140px;
+    margin: 0 auto;
+ }
+/* About Css */
+.About{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+
+}
+
+.about-items{
+    display: flex;
+    justify-content: space-around;
 }
